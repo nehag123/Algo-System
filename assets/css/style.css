@@ -1,0 +1,509 @@
+p {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #A2E7AA;
+	margin: 1px;
+	padding: 1px;
+}
+
+span.table_header_cell {
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+table {
+	background-color: #031C02;
+	border: 1px;
+}
+
+table.main {
+	width:100%;
+	border: 1px;
+	border-color: #ffffff;
+}
+
+
+th {
+	border-color: #234620;
+	border-width: 1px;
+	font-family: 'Ubuntu Mono', monospace;
+	color: #A2E7AA;
+	padding: 4px;
+	background-color: #053003;	
+}
+
+.white
+{
+	font-family: 'Ubuntu Mono', monospace;
+	color: #ffffff;
+	font-style: bold;
+}
+ 
+.up {
+    text-align: center; 
+    vertical-align: middle;
+	background-color: green;	
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 20px;
+	width: 96%;
+	height: 96%;
+}
+ 
+.down {
+    text-align: center; 
+    vertical-align: middle;
+	background-color: red;	
+	border-radius: 4px;
+	color: #ffffff;
+	font-style: bold;
+	font-size: 20px;
+	width: 96%;
+	height: 96%;
+}
+ 
+.unchanged {
+    text-align: center; 
+    vertical-align: middle;
+	background-color: #444444;	
+	border-radius: 4px;
+	color: #ffffff;
+	font-style: bold;
+	font-size: 20px;
+	width: 96%;
+	height: 96%;
+}
+ 
+.watch {
+    text-align: center; 
+    vertical-align: middle;
+	background-color: blue;	
+	border-radius: 4px;
+	color: #ffffff;
+	font-style: bold;
+	font-size: 20px;
+	width: 96%;
+}
+ 
+.standby { 
+    text-align: center; 
+    vertical-align: middle;
+	background-color: #581838;	
+	border-radius: 4px;
+	color: #ffffff;
+	font-style: bold;
+	font-size: 20px;
+	width: 96%;
+}
+ 
+td {
+	border-color: #234620;
+	border-width: 1px;
+	font-family: 'Ubuntu Mono', monospace;
+	font-style: Bold;
+	color: #A2E7AA;
+	padding: 4px;	
+}
+ 
+td.n {
+	color: #A2E7AA;
+ 	text-align: right;
+}
+ 
+ 
+input {
+	font-family: 'Ubuntu Mono', monospace;
+	/*color: #A2E7AA;*/ 
+	margin: 1px;
+	padding: 1px;
+	font-size   : 100%;
+	/*background-color: #031C02;*/
+	border-color: #234620;
+	border-width: 1px;
+    border-style: solid;
+}
+
+select {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #A2E7AA; 
+	margin: 1px;
+	padding: 1px;
+	font-size   : 100%;
+	background-color: #031C02;
+	border-color: #234620;
+	border-width: 1px;
+    border-style: solid;
+}
+
+hr {
+	color: #234620;
+    border-style: dotted; 
+}
+ 
+button.execute {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #031C02;
+	margin: 2px;
+	padding: 0px;
+	font-size: 14px;
+	background-color: #A2E7AA;
+	border-color: #234620;
+	border-width: 0px;
+    border-style: solid;
+    cursor: hand;
+}
+
+span.btn {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #031C02;
+	margin: 2px;
+	padding: 2px;
+	font-size: 13px;
+	background-color: #A2E7AA;
+}
+
+.main_action {
+	margin: 3px;
+	padding: 3px;
+	font-size: 18px;
+
+}
+ 
+.red {
+	color: red;
+}
+ 
+.disabletext {
+	color: #4a6548;
+	
+}
+ 
+.rounded_frame {
+	background-color: #031C02;
+    border-style: solid;
+	border-color: #234620;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:450px;
+	float: left;
+}
+
+.rounded_frame2 {
+	background-color: #031C02;
+    border-style: solid;
+	border-color: #234620;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	float: left;
+	clear: both;
+}
+
+.rounded_frame_full {
+	background-color: #031C02;
+    border-style: solid;
+	border-color: #234620;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width: 850px;
+	float: left;
+	clear: both;
+} 
+
+.chart_right {
+	position: fixed;
+	/*top: 115px;*/ 
+	top: 215px; 
+	right: 0;
+	overflow: auto;
+	bottom: 0px;
+}
+
+wrapperFrame {
+	width:220px;
+}
+ 
+.rounded_frame_col2 {
+	background-color: #031C02;
+    border-style: solid;
+	border-color: #234620;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px; 
+	width: 450px;
+	float: none;
+	clear: left;
+}
+ 
+
+  /* unvisited link */
+a:link {
+    color: #A2E7AA;
+}
+
+/* visited link */
+a:visited {
+    color: #A2E7AA;
+}
+
+/* mouse over link */
+a:hover {
+    color: #A2E7AA;
+}
+
+/* selected link */
+a:active {
+    color: #A2E7AA;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .signal {
+    display: inline-block;
+  }
+}
+
+.chart {
+	float: right;
+}
+ 
+
+.chart_right_2 {
+    border-style: solid;
+	border-color: #234620;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	position: fixed;
+	top: 150; 
+	right: 0;
+}
+
+div.bgndcolor {
+	background-color: #031C02;
+}
+
+div.coin_t1 {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: #291BC4;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t2 {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: #1E1A96;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t3 {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	/*width:100px;*/
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: #1D1B5C;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t4 {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: #555555;
+}
+
+div.coin_up {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: green;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_down {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 6px;
+	padding: 6px;
+	width:120px;
+	height:120px;
+	float: left;
+	background-color: red;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t1_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: #291BC4;
+    text-align: center; 
+    vertical-align: middle;
+}
+div.coin_t2_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: #1E1A96;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t3_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: #1D1B5C;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_t4_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: #555555;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_up_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: green;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+div.coin_down_SMALL {
+    border-style: solid;
+	border-color: #313845;
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px;
+	width:60px;
+	height:60px;
+	float: left;
+	background-color: red;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+h3 {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #d9d9d9;
+	font-style: bold;
+	font-size: 20px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	
+}  
+h4 {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #d9d9d9;
+	font-style: bold;
+	font-size: 22px;
+	margin: 8px;
+
+
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  min-height: 80px;
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.rounded_frame a {
+    float: right;
+    margin: -33px 0px 0px 0px;
+}
+
+@media (max-width: 1316px){
+	border-color: #234620;
+	
+}	
